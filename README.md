@@ -28,9 +28,9 @@ This project is designed as a proof of concept for **smart cities** and **IoT-ba
 - **NumPy / Matplotlib** → data manipulation & visualization
 
 ---
-```
-## 📂 Project Structure
 
+## 📂 Project Structure
+```
 smart-parking-detection/
 ├── data/                  # input dataset, video and mask
 │   ├── clf-data.zip
