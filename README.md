@@ -12,8 +12,8 @@ This project is designed as a proof of concept for **smart cities** and **IoT-ba
 - Automatic detection of parking slots using a predefined mask.
 - Image classification (`empty` vs `not_empty`) with a trained ML model.
 - Change-detection optimization: only reclassifies slots when significant differences occur between frames.
-- Real-time visualization with bounding boxes:
-  - 🟩 Green = Available
+- Real-time visualization with bounding boxes:  
+  - 🟩 Green = Available  
   - 🟥 Red = Occupied
 - Counter displaying the number of free slots vs total slots.
 - Saves an annotated video with all results.
@@ -35,9 +35,8 @@ smart-parking-detection/
 ├── data/ # input dataset, video and mask
 │ ├── clf-data.zip
 │ ├── parking_1920_1080.mp4
-| ├── mask_crop.png
+│ ├── mask_crop.png
 │ └── mask_1920_1080.png
-| 
 │
 ├── model/ # trained ML models
 │ └── model.pkl
@@ -51,24 +50,34 @@ smart-parking-detection/
 ├── requirements.txt
 └── README.md
 
-
+yaml
+Copier le code
 
 ---
 
-## 🖼 Screenshot 
+## 🖼 Screenshot
+![Parking Detection Screenshot](https://your-image-link-here.com/screenshot.png)  
+*Replace the URL above with the actual link to your screenshot or GIF.*
 
+---
 
 ## ⚙️ Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/Meriamsikini/smart-parking-detection.git
 cd smart-parking-detection
+
+Install dependencies:
+
+``` bash
+Copier le code
+pip install -r requirements.txt
 ```
-
 ## ▶️ Usage
+Make sure your dataset, video, and mask are placed inside the data/ directory.
 
-1. Make sure your dataset, video, and mask are placed inside the **`data/`** directory.  
-2. Run the main script to start parking detection:
+Run the main script:
+
 ```bash
 python src/main.py
 ```
