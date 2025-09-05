@@ -30,8 +30,22 @@ This project is designed as a proof of concept for **smart cities** and **IoT-ba
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
-`data/ (clf-data.zip, parking_1920_1080.mp4, mask_crop.png, mask_1920_1080.png), model/ (model.pkl), src/ (data_preparation.ipynb, main.py, utils.py), output/, requirements.txt, README.md`
+
+smart-parking-detection/
+├── data/                  # input dataset, video and mask
+│   ├── clf-data.zip
+│   ├── parking_1920_1080.mp4
+│   ├── mask_crop.png
+│   └── mask_1920_1080.png
+├── model/                 # trained ML models
+│   └── model.pkl
+├── src/                   # source code
+│   ├── data_preparation.ipynb   # dataset loading, preprocessing, PCA visualization
+│   ├── main.py                   # main real-time detection script
+│   └── utils.py                  # helper functions
+├── output/                # results (annotated video, logs…)
+├── requirements.txt
+└── README.md
 
 
 
