@@ -28,7 +28,7 @@ This project is designed as a proof of concept for **smart cities** and **IoT-ba
 - **NumPy / Matplotlib** → data manipulation & visualization
 
 ---
-
+```
 ## 📂 Project Structure
 
 smart-parking-detection/
@@ -46,6 +46,7 @@ smart-parking-detection/
 ├── output/                # results (annotated video, logs…)
 ├── requirements.txt
 └── README.md
+```
 
 
 
