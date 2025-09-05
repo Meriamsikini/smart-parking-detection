@@ -63,10 +63,10 @@ smart-parking-detection/
 ```bash
 git clone https://github.com/Meriamsikini/smart-parking-detection.git
 cd smart-parking-detection
-
+```
 Install dependencies:
 
-``` bash
+```bash
 
 pip install -r requirements.txt
 ```
