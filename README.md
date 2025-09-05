@@ -30,34 +30,16 @@ This project is designed as a proof of concept for **smart cities** and **IoT-ba
 ---
 
 ## 📂 Project Structure
-smart-parking-detection/
-│
-├── data/ # input dataset, video and mask
-│ ├── clf-data.zip
-│ ├── parking_1920_1080.mp4
-│ ├── mask_crop.png
-│ └── mask_1920_1080.png
-│
-├── model/ # trained ML models
-│ └── model.pkl
-│
-├── src/ # source code
-│ ├── data_preparation.ipynb # dataset loading, preprocessing, PCA visualization
-│ ├── main.py # main real-time detection script
-│ └── utils.py # helper functions (slot detection, classifier, etc.)
-│
-├── output/ # results (annotated video, logs…)
-├── requirements.txt
-└── README.md
+## 📂 Project Structure
+`data/ (clf-data.zip, parking_1920_1080.mp4, mask_crop.png, mask_1920_1080.png), model/ (model.pkl), src/ (data_preparation.ipynb, main.py, utils.py), output/, requirements.txt, README.md`
 
-yaml
-Copier le code
+
 
 ---
 
 ## 🖼 Screenshot
 ![Parking Detection Screenshot](https://your-image-link-here.com/screenshot.png)  
-*Replace the URL above with the actual link to your screenshot or GIF.*
+
 
 ---
 
@@ -70,7 +52,7 @@ cd smart-parking-detection
 Install dependencies:
 
 ``` bash
-Copier le code
+
 pip install -r requirements.txt
 ```
 ## ▶️ Usage
