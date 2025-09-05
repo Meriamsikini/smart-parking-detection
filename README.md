@@ -53,7 +53,7 @@ smart-parking-detection/
 ---
 
 ## 🖼 Screenshot
-![Parking Detection Screenshot](https://your-image-link-here.com/screenshot.png)  
+![Parking Detection Screenshot](https://github.com/Meriamsikini/smart-parking-detection/blob/main/Capture%20d'%C3%A9cran%202025-09-03%20180813.png?raw=true)  
 
 
 ---
